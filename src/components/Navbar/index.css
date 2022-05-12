@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #dcdcdc;
+  padding: 6px 70px;
+  font-family: 'Roboto';
+}
+.dark {
+  background: #333333;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-image {
+  height: 60px;
+  cursor: pointer;
+}
+.item {
+  margin-left: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #171f46;
+}
+.dark-text {
+  margin-left: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+.toggle-btn {
+  background: none;
+  border: none;
+}
